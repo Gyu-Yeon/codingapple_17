@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.main-container {
+display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.ivh-container {
+    width: 30%;
+    height: 100%;
+    background-color: #daebf3;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.login-container {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+
+.ivh-container-title-cotainer {
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+}
+.ivh-container-title-cotainer p{
+   margin: 5px;
+    font-weight: 500;
+}
+.ivh-container-title-cotainer h1{
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.ivh-container-img-container {
+    width: 100%;
+    height: 20%;
+}
+.ivh-container-img-container img {
+    width: 100%;
+}
+
+.img-box {
+    width: 150px;
+    height: 50px;
+    margin: auto;
+}
+
+.login-sub-container {
+    width: 40%;
+    height: 65%;
+    background-color:white;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.login-sub-container-line {
+display: flex;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+   color:#b4b4b4;
+}
+
+.login-sub-container-sns {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 20px;
+}
+
+.login-sub-container-title {
+    width: 100%;
+    margin-left: 40px;
+    
+    
+}
+
+.login-sub-container-title p{
+    margin: 0;
+        color:#b4b4b4;
+}
+
+.login-line {
+    margin-top: 10px;
+    width: 150px;
+    height: 1px;
+    border: 1px solid #ddeff7;
+    color: #eee;
+}
+
+.login-sub-container-input {
+    display: flex;
+    flex-flow: column;
+}
+
+.login-sub-container-form {
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
+.firstinput {
+    background-color: #daebf3;
+    width: 450px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 25px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid #daebf3;
+    
+}
+
+.forgot-signup-box {
+    display: flex;
+    justify-content: space-around;
+    color: #006599;
+}
+.forgot-signup-box p{
+    margin-top: 25px;
+}
+
+.forgot-signup:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+
+
+
+
+
+.signin-button {
+    width: 150px;
+    height: 45px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: #006599;
+    border: 1px solid #006599;
+}
+
+.goolge-box {
+   margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #aed8ec;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin-right: 40px;
+}
+
+.facebook-box {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #aed8ec;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin-right: 40px;
+}
+
+.twitter-box {
+   margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #aed8ec;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    
+}
+
+
+
+

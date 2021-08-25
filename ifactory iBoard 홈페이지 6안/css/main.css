@@ -1,0 +1,535 @@
+body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.logo-container {
+    width: 10%;
+    height: 100px;
+    background-color: #ffffff;
+    padding: 10px 20px 20px 20px;
+
+}
+
+.logo-container img {
+    width: 100%;
+
+}
+
+.search-date-container {
+    width: 60%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    color: black;
+}
+
+.search-date-container p {
+    margin-top: 33px;
+    margin-left: 50px;
+    font-size: 14px;
+
+}
+
+.search-box {
+
+    width: 250px;
+    height: 36px;
+    border-radius: 20px;
+    background-color: #d7e6ed;
+    border: 1px solid #d7e6ed;
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 27px;
+    width: 250px !important;
+    transition: all 1s;
+    text-align: center;
+    color: white;
+}
+
+.search-box:focus {
+    width: 400px !important;
+}
+
+.search-btn {
+    width: 70px;
+    height: 29px;
+    margin-left: -73px;
+    border-radius: 20px;
+    border: 1px solid #d7e6ed;
+    background-color: #d7e6ed;
+    margin-top: 31px;
+
+}
+
+.date-color {
+    color: #a9a9a9;
+    margin-right: 5px;
+}
+
+.profile-container {
+    width: 30%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.photo-container {
+    margin-right: 20px;
+}
+
+.photo-container img {
+    width: 100%;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 50px;
+    border: 1px solid #eee;
+}
+
+.user-name-container h6 {
+    margin-top: 25px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.profile-button-container {
+    margin-left: 40px;
+    padding: 15px;
+
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: #b1b6c0;
+}
+
+.sidebar-container {
+    width: 10%;
+    background-color: #d7e6ed;
+    display: flex;
+    flex-flow: column;
+    z-index: 7;
+}
+
+.dashboard-container {
+    width: 90%;
+    background-color: #ebf3f6;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.all-btn {
+    width: 110px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.edit-profile-btn {
+    margin-right: 10px;
+}
+
+.device-container {
+    padding: 10px;
+    margin: 10px 0px 0px 20px;
+    font-weight: 700;
+}
+
+.device-container:hover {
+    background-color: white;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.device-container:hover {
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+.device-container i {
+    margin-right: 15px;
+}
+
+.sidebar-sensor-container_1 {
+
+    width: 200px;
+    position: absolute;
+    left: 11%;
+    margin-top: 20px;
+    display: none;
+
+
+}
+
+.sensor-box {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+
+
+}
+
+.sensor-box p {
+    padding-left: 5px;
+    margin: 0px 5px 5px 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+
+
+}
+
+
+.sensor-box:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+
+.dashboard-container-half1 {
+    width: 60%;
+    height: 94%;
+    background-color: #ebf3f6;
+    display: flex;
+    flex-flow: column;
+
+
+
+}
+
+.dashboard-container-half2 {
+    width: 36%;
+    height: 94%;
+    background-color: #ebf3f6;
+    display: flex;
+    flex-flow: column;
+}
+
+.dashboard-container-half1-smartsensors-container {
+    width: 95%;
+    height: 35%;
+    background-color: #d7e6ed;
+    margin: auto;
+    border: 2px solid #a7c9db;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(167, 201, 219, 0.4)
+}
+
+.dashboard-container-half1-animation-container {
+    width: 95%;
+    height: 55%;
+    background-color: #ebf3f6;
+    margin: auto;
+}
+
+.dashboard-container-half1-footer-container {
+    width: 95%;
+    height: 10%;
+    background-color: #ebf3f6;
+    margin: auto;
+}
+
+.dashboard-container-half2-information-conatainer {
+    width: 100%;
+    height: 55%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.dashboard-container-half2-highlights-container {
+    width: 100%;
+    height: 35%;
+    background-color: #d7e6ed;
+    border: 2px solid #a9cadb;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.dashboard-container-half1-smartsensor-title {
+    width: 100%;
+    height: 10%;
+
+}
+
+.dashboard-container-half1-smartsensors-container-sub-container {
+    width: 100%;
+    height: 82%;
+    background-color: #d7e6ed;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.dashboard-container-half1-smartsensors-container-box {
+    width: 22%;
+    height: 200px;
+    background-color: white;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+
+}
+
+
+
+.sidebar-sensor-container_2 {
+    width: 200px;
+    position: absolute;
+    left: 11%;
+    margin-top: 80px;
+    display: none;
+}
+
+.sidebar-sensor-container_3 {
+    width: 200px;
+    position: absolute;
+    left: 11%;
+    margin-top: 130px;
+    display: none;
+}
+
+.sidebar-sensor-container_4 {
+    width: 200px;
+    position: absolute;
+    left: 11%;
+    margin-top: 190px;
+    display: none;
+}
+
+.showBox {
+    display: none;
+}
+
+.dashboard-container-half2-information-conatainer-productionquality-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    height: 35%;
+}
+
+.dashboard-container-half2-information-conatainer-temperature-container {
+    width: 100%;
+    background-color: white;
+    height: 27%;
+    display: flex;
+}
+
+.dashboard-container-half2-information-conatainer-fire-container {
+    width: 100%;
+    background-color: white;
+    height: 27%;
+    display: flex;
+    border-radius: 15px;
+}
+
+.dashboard-container-half2-information-conatainer-production-box {
+    width: 45%;
+    background-color: white;
+    height: 80%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid #b7d3e0;
+    border-radius: 15px;
+}
+
+.dashboard-container-half2-information-conatainer-production-box h6 {
+    margin-top: 15px;
+}
+
+.dashboard-container-half2-information-conatainer-quality-box {
+    width: 45%;
+    background-color: white;
+    height: 80%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid #b7d3e0;
+    border-radius: 15px;
+}
+
+.dashboard-container-half2-information-conatainer-quality-box h6 {
+    margin-top: 15px;
+}
+
+.dashboard-container-half2-information-conatainer-temperature-box {
+    width: 44%;
+    background-color: #e8f0f3;
+    height: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.dashboard-container-half2-information-conatainer-humidity-box {
+    width: 44%;
+    background-color: #e8f0f3;
+    height: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.dashboard-container-half2-information-conatainer-fire-box {
+    width: 44%;
+    background-color: #e8f0f3;
+    height: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.dashboard-container-half2-information-conatainer-electricity-box {
+    width: 44%;
+    background-color: #e8f0f3;
+    height: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.sensor-hide-subpage {
+    width: 1200px;
+    height: 83%;
+    background-color: #e8f0f3;
+    position: fixed;
+    right: 0%;
+    z-index: 5;
+    transition: transform 1s;
+    transform: translateX(1200px);
+    border: 1px solid black;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.showcss {
+
+    transition: transform 1.5s;
+    transform: translateX(0px);
+
+
+
+
+}
+
+.highlights-title-box {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.highlights-title-box h4 {
+    margin-left: 25px;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.alert-time-value-change-container {
+    width: 85%;
+    height: 15%;
+    display: flex;
+    background-color: #d7e6ed;
+    margin: auto;
+}
+
+.alert-box {
+    width: 40%;
+    background-color:#d7e6ed;
+    height: 100%;
+    text-align: center;
+}
+.alert-time-value-change-container p{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.time-box {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-color: #d7e6ed;
+}
+
+.value-box {
+    width: 20%;
+    height: 100%;
+    background-color:#d7e6ed;
+    text-align: center;
+}
+
+.change-box {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-color:#d7e6ed;
+}
+
+.critical-hightemperature-container {
+    width: 100%;
+    height: 65%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.critical-box {
+    width: 90%;
+    height: 22%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.critical-time-box {
+    width: 90%;
+    height: 22%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.critical-value-box {
+    width: 90%;
+    height: 22%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.critical-change-box {
+    width: 90%;
+    height: 22%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+}
